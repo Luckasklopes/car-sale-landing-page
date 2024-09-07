@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.insc-section {
+    display: flex;
+    background-color: #444;
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.insc-text {
+    padding: 40px;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.insc-text h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.insc-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.insc-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.insc-form button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.insc-form button:hover {
+    background-color: #e65b00;
+}
+
+.insc-image {
+    flex: 1;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insc-image img {
+    max-width: 100%;
+    height: auto;
+}
