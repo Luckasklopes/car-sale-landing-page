@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .gallery-container {
+    text-align: center;
+    width: 90%;
+    max-width: 1600px;
+    margin-top: 70px;
+  }
+
+  .gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px; 
+  }
+
+  .gallery-header h2 {
+    color: gray; 
+    font-size: 40px; 
+    margin: 0;
+  }
+
+  .gallery-header .ver-mais {
+    background-color: transparent;
+    border: 1px solid orange; 
+    color: orange; 
+    padding: 15px 50px; 
+    text-decoration: none;
+    font-size: 18px; 
+
+    
+  }
+
+  .gallery-header .ver-mais:hover {
+    background-color: orange; 
+    color: white; 
+  }
+
+  .gallery {
+    display: flex;
+    gap: 30px; 
+    justify-content: space-between;
+  }
+
+  .gallery img {
+    width: calc(33.33% - 30px); 
+    height: auto;
+    
+  }
