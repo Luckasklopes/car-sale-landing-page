@@ -1,4 +1,4 @@
-.container {
+.versao-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -10,7 +10,7 @@
     gap: 50px;
  }
   
-.image-container {
+.versao-image-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,7 +19,7 @@
     width: 400px;
 }
   
-.text-container {
+.versao-text-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,27 +27,27 @@
     width:400px;
 }
   
-.model-comparison {
+.versao-model-comparison {
     margin-bottom: 20px;
 }
   
-ul {
+.versao-ul {
     list-style: none;
     padding: 0px;
 }
   
-li {
+.versao-li {
     display: flex; 
     align-items: center;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-hr {
+.versao-hr {
     border-top: 1px solid rgb(204, 204, 204);
 }
   
-.botao-aventador-s {
+.versao-botao-aventador-s {
     background-color: #ff6600;
     color: white;
     height: 40px;
@@ -57,7 +57,7 @@ hr {
     border-radius: 25px;
 }
 
-.botao-aventador-b7 {
+.versao-botao-aventador-b7 {
     background-color: white;
     color: lightgrey;
     height: 40px;
@@ -67,7 +67,7 @@ hr {
     border-radius: 25px;
 }
 
-.botao-interesse {
+.versao-botao-interesse {
     width: 140px;
     height: 40px;
     background-color: #ff6600;
@@ -77,17 +77,17 @@ hr {
     cursor: pointer;
 }
 
-.valor {
+.versao-valor {
     color: #ff6600;
     font-style: italic;
 }
 
-.imagem {
+.versao-imagem {
     width: 400px;
     height: 200px;
 }
 
-.icone {
+.versao-icone {
     width: 20px;
     height: 20px;
     margin-right: 20px;
