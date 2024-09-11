@@ -1,0 +1,111 @@
+:root {
+    --background-color: #fff;
+    --border-color: #ddd;
+    --text-color: rgb(96, 96, 96);
+    --spacing: 55px;
+    --social-icon-size: 40px;
+    --social-border-color: #ddd;
+    --social-border-width: 2px;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    padding: 20px 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 20px;
+}
+
+.main-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--spacing);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--spacing);
+    gap: 15px;
+    margin-top: 200px;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--social-icon-size);
+    height: var(--social-icon-size);
+    border: var(--social-border-width) solid var(--social-border-color);
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+}
+
+.bloco {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border-color);
+    padding: 15px;
+    width: 100%;
+}
+
+.main-content span {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main-content a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.slogan{
+    gap: 15px;
+    margin-top: 213px;
+}   
+
+.navegacao{
+    gap: 15px;
+    margin-top: 225px; 
+    text-align: left;
+}
+
+.Logo{
+    height: 28px;
+    margin-right: 75px;
+}
+
+.acerto{
+    margin-right: 45px;
+}
