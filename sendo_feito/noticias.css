@@ -1,22 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+.noticia-cont {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-}
-
-.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.insc-section {
+.noticia-cont div,
+.noticia-cont section,
+.noticia-cont form,
+.noticia-cont h1,
+.noticia-cont input,
+.noticia-cont button,
+.noticia-cont img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noticia-cont .insc-section {
     display: flex;
     background-color: #444;
     border-radius: 2px;
@@ -25,7 +28,7 @@ body {
     width: 100%;
 }
 
-.insc-text {
+.noticia-cont .insc-text {
     padding: 40px;
     color: #fff;
     flex: 1;
@@ -34,17 +37,17 @@ body {
     justify-content: center;
 }
 
-.insc-text h1 {
+.noticia-cont .insc-text h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.insc-form {
+.noticia-cont .insc-form {
     display: flex;
     flex-direction: column;
 }
 
-.insc-form input[type="email"] {
+.noticia-cont .insc-form input[type="email"] {
     padding: 10px;
     font-size: 16px;
     margin-bottom: 20px;
@@ -52,7 +55,7 @@ body {
     border-radius: 5px;
 }
 
-.insc-form button {
+.noticia-cont .insc-form button {
     background-color: #ff6f00;
     color: white;
     border: none;
@@ -62,11 +65,11 @@ body {
     border-radius: 5px;
 }
 
-.insc-form button:hover {
+.noticia-cont .insc-form button:hover {
     background-color: #e65b00;
 }
 
-.insc-image {
+.noticia-cont .insc-image {
     flex: 1;
     background-color: #444;
     display: flex;
@@ -74,7 +77,7 @@ body {
     justify-content: center;
 }
 
-.insc-image img {
+.noticia-cont .insc-image img {
     max-width: 100%;
     height: auto;
 }
