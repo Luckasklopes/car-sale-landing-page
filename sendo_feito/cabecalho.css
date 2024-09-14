@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-header {
+.cabecalho-container {
     background-color: var(--background-color);
     padding: 20px 300px;
     display: flex;
@@ -23,28 +23,28 @@ header {
     box-sizing: border-box;
 }
 
-.header-left {
+.cabecalho-header-left {
     display: flex;
     align-items: center;
     gap: var(--spacing);
 }
 
-img {
+.cabecalho-img {
     height: 15px;
     margin-top: -3px;
 }
 
-nav {
+.cabecalho-nav {
     display: flex;
     gap: var(--spacing);
 }
 
-nav a {
+.cabecalho-nav-a {
     color: var(--text-color);
     text-decoration: none;
 }
 
-button {
+.cabecalho-button {
     background-color: var(--background-color);
     border: 1px solid var(--border-color);
     height: 50px;

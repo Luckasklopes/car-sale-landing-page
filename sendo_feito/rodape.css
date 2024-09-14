@@ -16,7 +16,7 @@ body {
     padding-bottom: 80px;
 }
 
-footer {
+.rodape-container {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -27,20 +27,20 @@ footer {
     flex-direction: column;
 }
 
-.main-content {
+.rodape-main-content {
     display: flex;
     justify-content: space-between;
     padding: 1px 20px;
 }
 
-.main-content > div {
+.rodape-main-content > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: var(--spacing);
 }
 
-.social-links {
+.rodape-social-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ footer {
     margin-top: 200px;
 }
 
-.social-links a {
+.rodape-social-links a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,18 +59,18 @@ footer {
     text-decoration: none;
 }
 
-.social-links img {
+.rodape-social-links img {
     width: 65%;
     height: 65%;
     object-fit: contain;
 }
 
-.bloco {
+.rodape-bloco {
     display: flex;
     gap: 10px;
 }
 
-.footer-bottom {
+.rodape-footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,33 +79,33 @@ footer {
     width: 100%;
 }
 
-.main-content span {
+.rodape-main-content span {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.main-content a {
+.rodape-main-content a {
     margin-bottom: 5px;
     text-decoration: none;
     color: var(--text-color);
 }
 
-.slogan{
+.rodape-slogan{
     gap: 15px;
     margin-top: 213px;
 }   
 
-.navegacao{
+.rodape-navegacao{
     gap: 15px;
     margin-top: 225px; 
     text-align: left;
 }
 
-.Logo{
+.rodape-Logo{
     height: 28px;
     margin-right: 75px;
 }
 
-.acerto{
+.rodape-acerto{
     margin-right: 45px;
 }
