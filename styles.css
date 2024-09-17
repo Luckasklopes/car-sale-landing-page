@@ -371,8 +371,8 @@ body {
 }
 
 .rodape-container {
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;
+    bottom: 0;*/
     width: 100%;
     background-color: rgb(243, 243, 243);
     padding: 20px 300px;
