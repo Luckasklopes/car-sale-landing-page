@@ -265,24 +265,14 @@ body {
 
 .noticia-cont {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.noticia-cont div,
-.noticia-cont section,
-.noticia-cont form,
-.noticia-cont h1,
-.noticia-cont input,
-.noticia-cont button,
-.noticia-cont img {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .noticia-cont .insc-section {
     display: flex;
@@ -305,20 +295,24 @@ body {
 .noticia-cont .insc-text h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    margin-top: 20px;
     color: #fff;
+    
 }
 
 .noticia-cont .insc-form {
     display: flex;
     flex-direction: column;
+    
 }
 
 .noticia-cont .insc-form input[type="email"] {
     padding: 10px;
+    width: 60%;
     font-size: 16px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 .noticia-cont .insc-form button {
@@ -326,9 +320,10 @@ body {
     color: white;
     border: none;
     padding: 10px;
+    width: 64%;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 .noticia-cont .insc-form button:hover {
