@@ -3,7 +3,7 @@
 :root {
     --background-color: #fff;
     --border-color: #ddd;
-    --text-color: rgb(175, 175, 175);
+    --text-color: #bbb;
     --button-text-color: #ff6f00ee;
     --spacing: 55px;
 }
@@ -355,7 +355,6 @@ body {
 :root {
     --background-color: #fff;
     --border-color: #ddd;
-    --text-color: rgb(96, 96, 96);
     --spacing: 55px;
     --social-icon-size: 40px;
     --social-border-color: #ddd;
@@ -371,14 +370,13 @@ body {
 }
 
 .rodape-container {
-    /*position: fixed;
-    bottom: 0;*/
     width: 100%;
     background-color: rgb(243, 243, 243);
     padding: 20px 300px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-left: -20px;
 }
 
 .rodape-main-content {
@@ -401,6 +399,7 @@ body {
     margin-bottom: var(--spacing);
     gap: 15px;
     margin-top: 200px;
+    margin-right: -45px;
 }
 
 .rodape-social-links a {
@@ -431,6 +430,11 @@ body {
     border-top: 1px solid var(--border-color);
     padding: 15px;
     width: 100%;
+    margin-top: 15px;
+}
+
+.rodape-footer-bottom p{
+    margin-top: 25px;
 }
 
 .rodape-main-content span {
@@ -450,9 +454,11 @@ body {
 }   
 
 .rodape-navegacao{
+    display: flex;
+    align-items: flex-start;
     gap: 15px;
-    margin-top: 225px; 
-    text-align: left;
+    margin-top: 225px;
+    margin-left: -80px; 
 }
 
 .rodape-Logo{
