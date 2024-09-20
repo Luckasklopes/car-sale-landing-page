@@ -38,7 +38,7 @@ h1 {
 }
 
 .laranja_banner {
-    color: orange;
+    color: #ff6f00;
 }
 
 p {
@@ -50,7 +50,7 @@ p {
 .botao_banner {
     display: inline-block;
     padding: 10px 20px;
-    background-color: orange;
+    background-color: #ff6f00;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -59,7 +59,7 @@ p {
 }
 
 .botao:hover {
-    background-color: darkorange;
+    background-color: #ff6f00;
 }
 
 .ponto_banner {
